@@ -1,0 +1,4 @@
+[console_scripts]
+listener = talking.listener:main
+talker = talking.talker:main
+

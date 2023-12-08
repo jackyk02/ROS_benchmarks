@@ -1,0 +1,41 @@
+running egg_info
+creating build/talking/talking.egg-info
+writing build/talking/talking.egg-info/PKG-INFO
+writing dependency_links to build/talking/talking.egg-info/dependency_links.txt
+writing entry points to build/talking/talking.egg-info/entry_points.txt
+writing requirements to build/talking/talking.egg-info/requires.txt
+writing top-level names to build/talking/talking.egg-info/top_level.txt
+writing manifest file 'build/talking/talking.egg-info/SOURCES.txt'
+reading manifest file 'build/talking/talking.egg-info/SOURCES.txt'
+writing manifest file 'build/talking/talking.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /mnt/c/Users/jacky/Desktop/ros/example/talking/build/talking/build
+creating /mnt/c/Users/jacky/Desktop/ros/example/talking/build/talking/build/lib
+creating /mnt/c/Users/jacky/Desktop/ros/example/talking/build/talking/build/lib/talking
+copying talking/listener.py -> /mnt/c/Users/jacky/Desktop/ros/example/talking/build/talking/build/lib/talking
+copying talking/talker.py -> /mnt/c/Users/jacky/Desktop/ros/example/talking/build/talking/build/lib/talking
+copying talking/__init__.py -> /mnt/c/Users/jacky/Desktop/ros/example/talking/build/talking/build/lib/talking
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/lib/python3.10/site-packages/talking
+copying /mnt/c/Users/jacky/Desktop/ros/example/talking/build/talking/build/lib/talking/listener.py -> /mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/lib/python3.10/site-packages/talking
+copying /mnt/c/Users/jacky/Desktop/ros/example/talking/build/talking/build/lib/talking/talker.py -> /mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/lib/python3.10/site-packages/talking
+copying /mnt/c/Users/jacky/Desktop/ros/example/talking/build/talking/build/lib/talking/__init__.py -> /mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/lib/python3.10/site-packages/talking
+byte-compiling /mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/lib/python3.10/site-packages/talking/listener.py to listener.cpython-310.pyc
+byte-compiling /mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/lib/python3.10/site-packages/talking/talker.py to talker.cpython-310.pyc
+byte-compiling /mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/lib/python3.10/site-packages/talking/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/share/ament_index
+creating /mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/share/ament_index/resource_index
+creating /mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/share/ament_index/resource_index/packages
+copying resource/talking -> /mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/share/ament_index/resource_index/packages
+copying package.xml -> /mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/share/talking
+running install_egg_info
+Copying build/talking/talking.egg-info to /mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/lib/python3.10/site-packages/talking-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/lib/talking
+Installing talker script to /mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/lib/talking
+writing list of installed files to '/mnt/c/Users/jacky/Desktop/ros/example/talking/build/talking/install.log'

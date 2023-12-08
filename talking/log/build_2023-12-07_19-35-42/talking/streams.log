@@ -1,0 +1,25 @@
+[1.856s] Invoking command in '/mnt/c/Users/jacky/Desktop/ros/example/talking': PS1=(venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/mnt/c/Users/jacky/Desktop/ros/example/talking/build/talking/prefix_override:/mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/talking build --build-base /mnt/c/Users/jacky/Desktop/ros/example/talking/build/talking/build install --record /mnt/c/Users/jacky/Desktop/ros/example/talking/build/talking/install.log --single-version-externally-managed
+[2.733s] running egg_info
+[2.739s] writing build/talking/talking.egg-info/PKG-INFO
+[2.760s] writing dependency_links to build/talking/talking.egg-info/dependency_links.txt
+[2.770s] writing entry points to build/talking/talking.egg-info/entry_points.txt
+[2.807s] writing requirements to build/talking/talking.egg-info/requires.txt
+[2.818s] writing top-level names to build/talking/talking.egg-info/top_level.txt
+[2.861s] reading manifest file 'build/talking/talking.egg-info/SOURCES.txt'
+[2.915s] writing manifest file 'build/talking/talking.egg-info/SOURCES.txt'
+[2.920s] running build
+[2.922s] running build_py
+[2.989s] running install
+[2.993s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.994s]   warnings.warn(
+[2.997s] running install_lib
+[3.106s] running install_data
+[3.132s] copying launch/talker_listener_launch.py -> /mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/share/talking
+[3.143s] running install_egg_info
+[3.154s] removing '/mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/lib/python3.10/site-packages/talking-0.0.0-py3.10.egg-info' (and everything under it)
+[3.220s] Copying build/talking/talking.egg-info to /mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/lib/python3.10/site-packages/talking-0.0.0-py3.10.egg-info
+[3.520s] running install_scripts
+[3.694s] Installing listener script to /mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/lib/talking
+[3.707s] Installing talker script to /mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/lib/talking
+[3.728s] writing list of installed files to '/mnt/c/Users/jacky/Desktop/ros/example/talking/build/talking/install.log'
+[3.753s] Invoked command in '/mnt/c/Users/jacky/Desktop/ros/example/talking' returned '0': PS1=(venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/mnt/c/Users/jacky/Desktop/ros/example/talking/build/talking/prefix_override:/mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/talking build --build-base /mnt/c/Users/jacky/Desktop/ros/example/talking/build/talking/build install --record /mnt/c/Users/jacky/Desktop/ros/example/talking/build/talking/install.log --single-version-externally-managed

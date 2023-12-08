@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.000438] (talking) JobQueued: {'identifier': 'talking', 'dependencies': OrderedDict()}
+[0.000942] (talking) JobStarted: {'identifier': 'talking'}
+[0.098381] (-) TimerEvent: {}
+[0.198848] (-) TimerEvent: {}
+[0.299271] (-) TimerEvent: {}
+[0.399755] (-) TimerEvent: {}
+[0.500867] (-) TimerEvent: {}
+[0.601918] (-) TimerEvent: {}
+[0.703107] (-) TimerEvent: {}
+[0.804324] (-) TimerEvent: {}
+[0.909532] (-) TimerEvent: {}
+[1.011379] (-) TimerEvent: {}
+[1.111936] (-) TimerEvent: {}
+[1.212406] (-) TimerEvent: {}
+[1.312833] (-) TimerEvent: {}
+[1.413375] (-) TimerEvent: {}
+[1.521476] (-) TimerEvent: {}
+[1.622085] (-) TimerEvent: {}
+[1.722553] (-) TimerEvent: {}
+[1.823532] (-) TimerEvent: {}
+[1.840815] (talking) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/talking', 'build', '--build-base', '/mnt/c/Users/jacky/Desktop/ros/example/talking/build/talking/build', 'install', '--record', '/mnt/c/Users/jacky/Desktop/ros/example/talking/build/talking/install.log', '--single-version-externally-managed'], 'cwd': '/mnt/c/Users/jacky/Desktop/ros/example/talking', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jackyk', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}', 'HOME': '/home/jackyk', 'OLDPWD': '/mnt/c/Users/jacky/Desktop/ros/example/talking/launch', 'ROS_PYTHON_VERSION': '3', 'PS1': '(venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'COLCON_PREFIX_PATH': '/mnt/c/Users/jacky/Desktop/ros/example/talking/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jackyk', 'NAME': 'Jacky', 'WSL_INTEROP': '/run/WSL/14_interop', '_': '/home/jackyk/.local/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/jackyk/.local/bin:/home/jackyk/colcon_venv/venv/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0/libnvvp:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/jacky/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/jacky/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/jacky/AppData/Local/Microsoft/WindowsApps:/mnt/d/Users/jacky/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2022.3.2/bin:/mnt/c/Users/jacky/AppData/Roaming/npm:/mnt/c/Users/jacky/.dotnet/tools:/mnt/c/Users/jacky/Desktop/LF/lf-cli-0.4.0/bin:/mnt/c/Users/jacky/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/jacky/AppData/Local/JetBrains/IntelliJ IDEA Community Edition 2023.1/bin:/snap/bin', 'WT_SESSION': '2df1e54d-c3a3-49e5-8bd6-a78bdab22169', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/jackyk/colcon_venv/venv', 'PWD': '/mnt/c/Users/jacky/Desktop/ros/example/talking/build/talking', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/jacky/Desktop/ros/example/talking/build/talking/prefix_override:/mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/lib/python3.10/site-packages:/mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[1.923626] (-) TimerEvent: {}
+[2.024162] (-) TimerEvent: {}
+[2.124559] (-) TimerEvent: {}
+[2.224918] (-) TimerEvent: {}
+[2.325394] (-) TimerEvent: {}
+[2.425886] (-) TimerEvent: {}
+[2.527029] (-) TimerEvent: {}
+[2.628022] (-) TimerEvent: {}
+[2.728488] (-) TimerEvent: {}
+[2.733132] (talking) StdoutLine: {'line': b'running egg_info\n'}
+[2.739821] (talking) StdoutLine: {'line': b'writing build/talking/talking.egg-info/PKG-INFO\n'}
+[2.760294] (talking) StdoutLine: {'line': b'writing dependency_links to build/talking/talking.egg-info/dependency_links.txt\n'}
+[2.770223] (talking) StdoutLine: {'line': b'writing entry points to build/talking/talking.egg-info/entry_points.txt\n'}
+[2.799937] (talking) StdoutLine: {'line': b'writing requirements to build/talking/talking.egg-info/requires.txt\n'}
+[2.817893] (talking) StdoutLine: {'line': b'writing top-level names to build/talking/talking.egg-info/top_level.txt\n'}
+[2.830317] (-) TimerEvent: {}
+[2.861799] (talking) StdoutLine: {'line': b"reading manifest file 'build/talking/talking.egg-info/SOURCES.txt'\n"}
+[2.915518] (talking) StdoutLine: {'line': b"writing manifest file 'build/talking/talking.egg-info/SOURCES.txt'\n"}
+[2.920021] (talking) StdoutLine: {'line': b'running build\n'}
+[2.922085] (talking) StdoutLine: {'line': b'running build_py\n'}
+[2.930399] (-) TimerEvent: {}
+[2.989818] (talking) StdoutLine: {'line': b'running install\n'}
+[2.990915] (talking) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.994198] (talking) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.995287] (talking) StdoutLine: {'line': b'running install_lib\n'}
+[3.030485] (-) TimerEvent: {}
+[3.106435] (talking) StdoutLine: {'line': b'running install_data\n'}
+[3.130641] (-) TimerEvent: {}
+[3.132737] (talking) StdoutLine: {'line': b'copying launch/talker_listener_launch.py -> /mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/share/talking\n'}
+[3.144032] (talking) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.152591] (talking) StdoutLine: {'line': b"removing '/mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/lib/python3.10/site-packages/talking-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.220860] (talking) StdoutLine: {'line': b'Copying build/talking/talking.egg-info to /mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/lib/python3.10/site-packages/talking-0.0.0-py3.10.egg-info\n'}
+[3.230716] (-) TimerEvent: {}
+[3.331018] (-) TimerEvent: {}
+[3.431476] (-) TimerEvent: {}
+[3.520466] (talking) StdoutLine: {'line': b'running install_scripts\n'}
+[3.531553] (-) TimerEvent: {}
+[3.632284] (-) TimerEvent: {}
+[3.694832] (talking) StdoutLine: {'line': b'Installing listener script to /mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/lib/talking\n'}
+[3.707991] (talking) StdoutLine: {'line': b'Installing talker script to /mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/lib/talking\n'}
+[3.728454] (talking) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Users/jacky/Desktop/ros/example/talking/build/talking/install.log'\n"}
+[3.732382] (-) TimerEvent: {}
+[3.745440] (talking) CommandEnded: {'returncode': 0}
+[3.833282] (-) TimerEvent: {}
+[3.934039] (-) TimerEvent: {}
+[4.035700] (-) TimerEvent: {}
+[4.105631] (talking) JobEnded: {'identifier': 'talking', 'rc': 0}
+[4.119276] (-) EventReactorShutdown: {}
