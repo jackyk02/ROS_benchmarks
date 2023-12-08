@@ -1,0 +1,4 @@
+[console_scripts]
+listener = inference.listener:main
+talker = inference.talker:main
+

@@ -1,0 +1,33 @@
+[4.053s] Invoking command in '/mnt/c/Users/jacky/Desktop/ros/example/inference': PS1=(venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/mnt/c/Users/jacky/Desktop/ros/example/build/inference/prefix_override:/mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/inference build --build-base /mnt/c/Users/jacky/Desktop/ros/example/build/inference/build install --record /mnt/c/Users/jacky/Desktop/ros/example/build/inference/install.log --single-version-externally-managed
+[5.603s] running egg_info
+[5.610s] writing ../build/inference/inference.egg-info/PKG-INFO
+[5.619s] writing dependency_links to ../build/inference/inference.egg-info/dependency_links.txt
+[5.628s] writing entry points to ../build/inference/inference.egg-info/entry_points.txt
+[5.632s] writing requirements to ../build/inference/inference.egg-info/requires.txt
+[5.635s] writing top-level names to ../build/inference/inference.egg-info/top_level.txt
+[5.688s] reading manifest file '../build/inference/inference.egg-info/SOURCES.txt'
+[5.759s] writing manifest file '../build/inference/inference.egg-info/SOURCES.txt'
+[5.763s] running build
+[5.765s] running build_py
+[5.786s] copying inference/listener.py -> /mnt/c/Users/jacky/Desktop/ros/example/build/inference/build/lib/inference
+[5.846s] copying inference/talker.py -> /mnt/c/Users/jacky/Desktop/ros/example/build/inference/build/lib/inference
+[5.960s] running install
+[5.963s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.965s]   warnings.warn(
+[5.966s] running install_lib
+[6.012s] copying /mnt/c/Users/jacky/Desktop/ros/example/build/inference/build/lib/inference/listener.py -> /mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages/inference
+[6.062s] copying /mnt/c/Users/jacky/Desktop/ros/example/build/inference/build/lib/inference/talker.py -> /mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages/inference
+[6.146s] byte-compiling /mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages/inference/listener.py to listener.cpython-310.pyc
+[6.217s] byte-compiling /mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages/inference/talker.py to talker.cpython-310.pyc
+[6.289s] running install_data
+[6.312s] copying inference/listener.py -> /mnt/c/Users/jacky/Desktop/ros/example/install/inference/share/inference
+[6.334s] copying inference/talker.py -> /mnt/c/Users/jacky/Desktop/ros/example/install/inference/share/inference
+[6.352s] copying inference/__init__.py -> /mnt/c/Users/jacky/Desktop/ros/example/install/inference/share/inference
+[6.395s] running install_egg_info
+[6.414s] removing '/mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages/inference-0.0.0-py3.10.egg-info' (and everything under it)
+[6.517s] Copying ../build/inference/inference.egg-info to /mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages/inference-0.0.0-py3.10.egg-info
+[7.261s] running install_scripts
+[7.445s] Installing listener script to /mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/inference
+[7.463s] Installing talker script to /mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/inference
+[7.488s] writing list of installed files to '/mnt/c/Users/jacky/Desktop/ros/example/build/inference/install.log'
+[7.512s] Invoked command in '/mnt/c/Users/jacky/Desktop/ros/example/inference' returned '0': PS1=(venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/mnt/c/Users/jacky/Desktop/ros/example/build/inference/prefix_override:/mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/inference build --build-base /mnt/c/Users/jacky/Desktop/ros/example/build/inference/build install --record /mnt/c/Users/jacky/Desktop/ros/example/build/inference/install.log --single-version-externally-managed

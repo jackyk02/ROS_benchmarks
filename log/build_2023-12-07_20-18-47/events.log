@@ -1,0 +1,115 @@
+[0.000000] (-) TimerEvent: {}
+[0.000422] (-) JobUnselected: {'identifier': 'talking'}
+[0.000963] (inference) JobQueued: {'identifier': 'inference', 'dependencies': OrderedDict()}
+[0.001396] (inference) JobStarted: {'identifier': 'inference'}
+[0.097565] (-) TimerEvent: {}
+[0.198428] (-) TimerEvent: {}
+[0.299155] (-) TimerEvent: {}
+[0.399855] (-) TimerEvent: {}
+[0.501067] (-) TimerEvent: {}
+[0.602373] (-) TimerEvent: {}
+[0.704103] (-) TimerEvent: {}
+[0.806611] (-) TimerEvent: {}
+[0.907306] (-) TimerEvent: {}
+[1.008333] (-) TimerEvent: {}
+[1.108839] (-) TimerEvent: {}
+[1.209691] (-) TimerEvent: {}
+[1.310470] (-) TimerEvent: {}
+[1.411709] (-) TimerEvent: {}
+[1.512468] (-) TimerEvent: {}
+[1.613463] (-) TimerEvent: {}
+[1.714282] (-) TimerEvent: {}
+[1.815951] (-) TimerEvent: {}
+[1.916416] (-) TimerEvent: {}
+[2.017082] (-) TimerEvent: {}
+[2.117557] (-) TimerEvent: {}
+[2.218048] (-) TimerEvent: {}
+[2.318629] (-) TimerEvent: {}
+[2.428045] (-) TimerEvent: {}
+[2.528700] (-) TimerEvent: {}
+[2.629673] (-) TimerEvent: {}
+[2.733495] (-) TimerEvent: {}
+[2.834257] (-) TimerEvent: {}
+[2.934696] (-) TimerEvent: {}
+[3.035281] (-) TimerEvent: {}
+[3.135843] (-) TimerEvent: {}
+[3.180475] (inference) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/inference', 'build', '--build-base', '/mnt/c/Users/jacky/Desktop/ros/example/build/inference/build', 'install', '--record', '/mnt/c/Users/jacky/Desktop/ros/example/build/inference/install.log', '--single-version-externally-managed'], 'cwd': '/mnt/c/Users/jacky/Desktop/ros/example/inference', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jackyk', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}', 'HOME': '/home/jackyk', 'OLDPWD': '/mnt/c/Users/jacky/Desktop/ros', 'ROS_PYTHON_VERSION': '3', 'PS1': '(venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'COLCON_PREFIX_PATH': '/mnt/c/Users/jacky/Desktop/ros/example/talking/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jackyk', 'NAME': 'Jacky', 'WSL_INTEROP': '/run/WSL/14_interop', '_': '/home/jackyk/.local/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/jackyk/.local/bin:/home/jackyk/colcon_venv/venv/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0/libnvvp:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/jacky/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/jacky/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/jacky/AppData/Local/Microsoft/WindowsApps:/mnt/d/Users/jacky/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2022.3.2/bin:/mnt/c/Users/jacky/AppData/Roaming/npm:/mnt/c/Users/jacky/.dotnet/tools:/mnt/c/Users/jacky/Desktop/LF/lf-cli-0.4.0/bin:/mnt/c/Users/jacky/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/jacky/AppData/Local/JetBrains/IntelliJ IDEA Community Edition 2023.1/bin:/snap/bin', 'WT_SESSION': 'bd68e882-944b-46d7-ab52-18edb8736b25', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/jackyk/colcon_venv/venv', 'PWD': '/mnt/c/Users/jacky/Desktop/ros/example/build/inference', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/jacky/Desktop/ros/example/build/inference/prefix_override:/mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages:/mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[3.236160] (-) TimerEvent: {}
+[3.336766] (-) TimerEvent: {}
+[3.437538] (-) TimerEvent: {}
+[3.538438] (-) TimerEvent: {}
+[3.640215] (-) TimerEvent: {}
+[3.740749] (-) TimerEvent: {}
+[3.841181] (-) TimerEvent: {}
+[3.941709] (-) TimerEvent: {}
+[4.042601] (-) TimerEvent: {}
+[4.143553] (-) TimerEvent: {}
+[4.244490] (-) TimerEvent: {}
+[4.331477] (inference) StdoutLine: {'line': b'running egg_info\n'}
+[4.335044] (inference) StdoutLine: {'line': b'creating ../build/inference/inference.egg-info\n'}
+[4.339026] (inference) StdoutLine: {'line': b'writing ../build/inference/inference.egg-info/PKG-INFO\n'}
+[4.344683] (-) TimerEvent: {}
+[4.357278] (inference) StdoutLine: {'line': b'writing dependency_links to ../build/inference/inference.egg-info/dependency_links.txt\n'}
+[4.369730] (inference) StdoutLine: {'line': b'writing entry points to ../build/inference/inference.egg-info/entry_points.txt\n'}
+[4.385095] (inference) StdoutLine: {'line': b'writing requirements to ../build/inference/inference.egg-info/requires.txt\n'}
+[4.395457] (inference) StdoutLine: {'line': b'writing top-level names to ../build/inference/inference.egg-info/top_level.txt\n'}
+[4.413751] (inference) StdoutLine: {'line': b"writing manifest file '../build/inference/inference.egg-info/SOURCES.txt'\n"}
+[4.444902] (-) TimerEvent: {}
+[4.476311] (inference) StdoutLine: {'line': b"reading manifest file '../build/inference/inference.egg-info/SOURCES.txt'\n"}
+[4.534106] (inference) StdoutLine: {'line': b"writing manifest file '../build/inference/inference.egg-info/SOURCES.txt'\n"}
+[4.537688] (inference) StdoutLine: {'line': b'running build\n'}
+[4.539075] (inference) StdoutLine: {'line': b'running build_py\n'}
+[4.545072] (-) TimerEvent: {}
+[4.546563] (inference) StdoutLine: {'line': b'creating /mnt/c/Users/jacky/Desktop/ros/example/build/inference/build\n'}
+[4.552288] (inference) StdoutLine: {'line': b'creating /mnt/c/Users/jacky/Desktop/ros/example/build/inference/build/lib\n'}
+[4.558369] (inference) StdoutLine: {'line': b'creating /mnt/c/Users/jacky/Desktop/ros/example/build/inference/build/lib/inference\n'}
+[4.573673] (inference) StdoutLine: {'line': b'copying inference/listener.py -> /mnt/c/Users/jacky/Desktop/ros/example/build/inference/build/lib/inference\n'}
+[4.612381] (inference) StdoutLine: {'line': b'copying inference/talker.py -> /mnt/c/Users/jacky/Desktop/ros/example/build/inference/build/lib/inference\n'}
+[4.643363] (inference) StdoutLine: {'line': b'copying inference/__init__.py -> /mnt/c/Users/jacky/Desktop/ros/example/build/inference/build/lib/inference\n'}
+[4.645143] (-) TimerEvent: {}
+[4.658981] (inference) StdoutLine: {'line': b'running install\n'}
+[4.660838] (inference) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.661500] (inference) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.662546] (inference) StdoutLine: {'line': b'running install_lib\n'}
+[4.686133] (inference) StdoutLine: {'line': b'creating /mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages/inference\n'}
+[4.703860] (inference) StdoutLine: {'line': b'copying /mnt/c/Users/jacky/Desktop/ros/example/build/inference/build/lib/inference/listener.py -> /mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages/inference\n'}
+[4.737388] (inference) StdoutLine: {'line': b'copying /mnt/c/Users/jacky/Desktop/ros/example/build/inference/build/lib/inference/talker.py -> /mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages/inference\n'}
+[4.745248] (-) TimerEvent: {}
+[4.777848] (inference) StdoutLine: {'line': b'copying /mnt/c/Users/jacky/Desktop/ros/example/build/inference/build/lib/inference/__init__.py -> /mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages/inference\n'}
+[4.817338] (inference) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages/inference/listener.py to listener.cpython-310.pyc\n'}
+[4.845413] (-) TimerEvent: {}
+[4.865400] (inference) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages/inference/talker.py to talker.cpython-310.pyc\n'}
+[4.929989] (inference) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages/inference/__init__.py to __init__.cpython-310.pyc\n'}
+[4.945532] (-) TimerEvent: {}
+[4.987939] (inference) StdoutLine: {'line': b'running install_data\n'}
+[5.005312] (inference) StdoutLine: {'line': b'copying launch/talker_listener_launch.py -> /mnt/c/Users/jacky/Desktop/ros/example/install/inference/share/inference\n'}
+[5.040181] (inference) StdoutLine: {'line': b'creating /mnt/c/Users/jacky/Desktop/ros/example/install/inference/share/ament_index\n'}
+[5.044406] (inference) StdoutLine: {'line': b'creating /mnt/c/Users/jacky/Desktop/ros/example/install/inference/share/ament_index/resource_index\n'}
+[5.045608] (-) TimerEvent: {}
+[5.048793] (inference) StdoutLine: {'line': b'creating /mnt/c/Users/jacky/Desktop/ros/example/install/inference/share/ament_index/resource_index/packages\n'}
+[5.060321] (inference) StdoutLine: {'line': b'copying resource/inference -> /mnt/c/Users/jacky/Desktop/ros/example/install/inference/share/ament_index/resource_index/packages\n'}
+[5.083935] (inference) StdoutLine: {'line': b'copying package.xml -> /mnt/c/Users/jacky/Desktop/ros/example/install/inference/share/inference\n'}
+[5.097833] (inference) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.120504] (inference) StdoutLine: {'line': b'Copying ../build/inference/inference.egg-info to /mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages/inference-0.0.0-py3.10.egg-info\n'}
+[5.145729] (-) TimerEvent: {}
+[5.246549] (-) TimerEvent: {}
+[5.347456] (-) TimerEvent: {}
+[5.449461] (-) TimerEvent: {}
+[5.550816] (-) TimerEvent: {}
+[5.651450] (-) TimerEvent: {}
+[5.724777] (inference) StdoutLine: {'line': b'running install_scripts\n'}
+[5.751555] (-) TimerEvent: {}
+[5.852133] (-) TimerEvent: {}
+[5.857442] (inference) StdoutLine: {'line': b'Installing listener script to /mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/inference\n'}
+[5.872156] (inference) StdoutLine: {'line': b'Installing talker script to /mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/inference\n'}
+[5.902291] (inference) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Users/jacky/Desktop/ros/example/build/inference/install.log'\n"}
+[5.921503] (inference) CommandEnded: {'returncode': 0}
+[5.952502] (-) TimerEvent: {}
+[6.055054] (-) TimerEvent: {}
+[6.157858] (-) TimerEvent: {}
+[6.258547] (-) TimerEvent: {}
+[6.359192] (-) TimerEvent: {}
+[6.460262] (-) TimerEvent: {}
+[6.560796] (-) TimerEvent: {}
+[6.635369] (inference) JobEnded: {'identifier': 'inference', 'rc': 0}
+[6.651343] (-) EventReactorShutdown: {}
