@@ -1,0 +1,121 @@
+[16.329s] DEBUG:colcon:Command line arguments: ['/home/jackyk/.local/bin/colcon', 'build', '--packages-select', 'inference']
+[16.330s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['inference'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb1dbee8550>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb1dbee1c60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb1dbee1c60>>)
+[17.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[17.749s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[17.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[17.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[17.750s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[17.751s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[17.751s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/mnt/c/Users/jacky/Desktop/ros/example'
+[17.753s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[17.754s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[17.754s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[17.756s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[17.757s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[17.757s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[17.758s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[17.758s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[17.758s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[17.905s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[17.907s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[17.920s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[17.923s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[17.936s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[18.029s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[18.031s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[18.061s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[18.072s] Level 1:colcon.colcon_core.package_identification:_identify(inference) by extensions ['ignore', 'ignore_ament_install']
+[18.073s] Level 1:colcon.colcon_core.package_identification:_identify(inference) by extension 'ignore'
+[18.075s] Level 1:colcon.colcon_core.package_identification:_identify(inference) by extension 'ignore_ament_install'
+[18.113s] Level 1:colcon.colcon_core.package_identification:_identify(inference) by extensions ['colcon_pkg']
+[18.113s] Level 1:colcon.colcon_core.package_identification:_identify(inference) by extension 'colcon_pkg'
+[18.134s] Level 1:colcon.colcon_core.package_identification:_identify(inference) by extensions ['colcon_meta']
+[18.138s] Level 1:colcon.colcon_core.package_identification:_identify(inference) by extension 'colcon_meta'
+[18.146s] Level 1:colcon.colcon_core.package_identification:_identify(inference) by extensions ['ros']
+[18.147s] Level 1:colcon.colcon_core.package_identification:_identify(inference) by extension 'ros'
+[18.410s] DEBUG:colcon.colcon_core.package_identification:Package 'inference' with type 'ros.ament_python' and name 'inference'
+[18.475s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[18.475s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[18.493s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[18.549s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[18.550s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[18.553s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[18.561s] Level 1:colcon.colcon_core.package_identification:_identify(talking) by extensions ['ignore', 'ignore_ament_install']
+[18.561s] Level 1:colcon.colcon_core.package_identification:_identify(talking) by extension 'ignore'
+[18.563s] Level 1:colcon.colcon_core.package_identification:_identify(talking) by extension 'ignore_ament_install'
+[18.583s] Level 1:colcon.colcon_core.package_identification:_identify(talking) by extensions ['colcon_pkg']
+[18.587s] Level 1:colcon.colcon_core.package_identification:_identify(talking) by extension 'colcon_pkg'
+[18.615s] Level 1:colcon.colcon_core.package_identification:_identify(talking) by extensions ['colcon_meta']
+[18.616s] Level 1:colcon.colcon_core.package_identification:_identify(talking) by extension 'colcon_meta'
+[18.624s] Level 1:colcon.colcon_core.package_identification:_identify(talking) by extensions ['ros']
+[18.630s] Level 1:colcon.colcon_core.package_identification:_identify(talking) by extension 'ros'
+[18.849s] DEBUG:colcon.colcon_core.package_identification:Package 'talking' with type 'ros.ament_python' and name 'talking'
+[18.851s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[18.857s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[18.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[18.869s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[18.871s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[20.476s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'talking' in 'talking'
+[20.529s] Level 5:colcon.colcon_core.verb:set package 'inference' build argument 'cmake_args' from command line to 'None'
+[20.530s] Level 5:colcon.colcon_core.verb:set package 'inference' build argument 'cmake_target' from command line to 'None'
+[20.536s] Level 5:colcon.colcon_core.verb:set package 'inference' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[20.542s] Level 5:colcon.colcon_core.verb:set package 'inference' build argument 'cmake_clean_cache' from command line to 'False'
+[20.549s] Level 5:colcon.colcon_core.verb:set package 'inference' build argument 'cmake_clean_first' from command line to 'False'
+[20.557s] Level 5:colcon.colcon_core.verb:set package 'inference' build argument 'cmake_force_configure' from command line to 'False'
+[20.558s] Level 5:colcon.colcon_core.verb:set package 'inference' build argument 'ament_cmake_args' from command line to 'None'
+[20.559s] Level 5:colcon.colcon_core.verb:set package 'inference' build argument 'catkin_cmake_args' from command line to 'None'
+[20.560s] Level 5:colcon.colcon_core.verb:set package 'inference' build argument 'catkin_skip_building_tests' from command line to 'False'
+[20.561s] DEBUG:colcon.colcon_core.verb:Building package 'inference' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/c/Users/jacky/Desktop/ros/example/build/inference', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/c/Users/jacky/Desktop/ros/example/install/inference', 'merge_install': False, 'path': '/mnt/c/Users/jacky/Desktop/ros/example/inference', 'symlink_install': False, 'test_result_base': None}
+[20.710s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[21.077s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[21.078s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/mnt/c/Users/jacky/Desktop/ros/example/inference' with build type 'ament_python'
+[21.093s] Level 1:colcon.colcon_core.shell:create_environment_hook('inference', 'ament_prefix_path')
+[21.172s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[21.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/jacky/Desktop/ros/example/install/inference/share/inference/hook/ament_prefix_path.ps1'
+[21.555s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/jacky/Desktop/ros/example/install/inference/share/inference/hook/ament_prefix_path.dsv'
+[21.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/jacky/Desktop/ros/example/install/inference/share/inference/hook/ament_prefix_path.sh'
+[22.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[22.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[26.066s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/mnt/c/Users/jacky/Desktop/ros/example/inference'
+[26.085s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[26.085s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[27.911s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Users/jacky/Desktop/ros/example/inference': PS1=(venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/mnt/c/Users/jacky/Desktop/ros/example/build/inference/prefix_override:/mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/inference build --build-base /mnt/c/Users/jacky/Desktop/ros/example/build/inference/build install --record /mnt/c/Users/jacky/Desktop/ros/example/build/inference/install.log --single-version-externally-managed
+[30.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Users/jacky/Desktop/ros/example/inference' returned '0': PS1=(venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/mnt/c/Users/jacky/Desktop/ros/example/build/inference/prefix_override:/mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/inference build --build-base /mnt/c/Users/jacky/Desktop/ros/example/build/inference/build install --record /mnt/c/Users/jacky/Desktop/ros/example/build/inference/install.log --single-version-externally-managed
+[30.476s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/jacky/Desktop/ros/example/install/inference' for CMake module files
+[30.584s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/jacky/Desktop/ros/example/install/inference' for CMake config files
+[30.670s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib'
+[30.675s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/jacky/Desktop/ros/example/install/inference/bin'
+[30.676s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/pkgconfig/inference.pc'
+[30.678s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages'
+[30.680s] Level 1:colcon.colcon_core.shell:create_environment_hook('inference', 'pythonpath')
+[30.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/jacky/Desktop/ros/example/install/inference/share/inference/hook/pythonpath.ps1'
+[30.718s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/jacky/Desktop/ros/example/install/inference/share/inference/hook/pythonpath.dsv'
+[30.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/jacky/Desktop/ros/example/install/inference/share/inference/hook/pythonpath.sh'
+[30.745s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/jacky/Desktop/ros/example/install/inference/bin'
+[30.746s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(inference)
+[30.767s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/jacky/Desktop/ros/example/install/inference/share/inference/package.ps1'
+[30.776s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/Users/jacky/Desktop/ros/example/install/inference/share/inference/package.dsv'
+[30.789s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/jacky/Desktop/ros/example/install/inference/share/inference/package.sh'
+[30.809s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/jacky/Desktop/ros/example/install/inference/share/inference/package.bash'
+[30.822s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/jacky/Desktop/ros/example/install/inference/share/inference/package.zsh'
+[30.836s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/Users/jacky/Desktop/ros/example/install/inference/share/colcon-core/packages/inference)
+[30.845s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[30.846s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[30.846s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[30.846s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[31.055s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[31.055s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[31.055s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[31.055s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[31.056s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[31.056s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[31.082s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/jacky/Desktop/ros/example/install/local_setup.ps1'
+[31.086s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/c/Users/jacky/Desktop/ros/example/install/_local_setup_util_ps1.py'
+[31.091s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/jacky/Desktop/ros/example/install/setup.ps1'
+[31.130s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/jacky/Desktop/ros/example/install/local_setup.sh'
+[31.135s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/c/Users/jacky/Desktop/ros/example/install/_local_setup_util_sh.py'
+[31.139s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/jacky/Desktop/ros/example/install/setup.sh'
+[31.175s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/jacky/Desktop/ros/example/install/local_setup.bash'
+[31.179s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/jacky/Desktop/ros/example/install/setup.bash'
+[31.215s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/jacky/Desktop/ros/example/install/local_setup.zsh'
+[31.219s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/jacky/Desktop/ros/example/install/setup.zsh'
