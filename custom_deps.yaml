@@ -1,0 +1,24 @@
+pip-custom:
+  ubuntu:
+    pip:
+      packages: ["pip<=23.0.1"]
+
+setuptools-custom:
+  ubuntu:
+    pip:
+      packages: ["setuptools<=66"]
+
+wheel-custom:
+  ubuntu:
+    pip:
+      packages: ["wheel<=0.38.4"]
+
+gym-custom:
+  ubuntu:
+    pip:
+      packages: ["gym"]
+
+maGym:
+  ubuntu:
+    pip:
+      packages: ["ma-gym==0.0.14"]

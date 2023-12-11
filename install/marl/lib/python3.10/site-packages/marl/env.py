@@ -2,6 +2,8 @@ import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float32MultiArray, Int32
 from message_filters import ApproximateTimeSynchronizer, Subscriber
+import gym
+import ma_gym
 
 
 class Env(Node):
@@ -42,6 +44,7 @@ class Env(Node):
 
 
 def main(args=None):
+    gym_make = gym.make('ma_gym:TrafficJunction4-v1')
     rclpy.init(args=args)
     env_node = Env()
     rclpy.spin(env_node)

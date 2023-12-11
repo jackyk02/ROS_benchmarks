@@ -1,1 +1,1 @@
-gym-pip:message_filters:python-pytorch-pip:python3-numpy:rclpy:std_msgs
+gym-pip:maGym:message_filters:pip-custom:python-pytorch-pip:python3-numpy:rclpy:setuptools-custom:std_msgs:wheel-custom

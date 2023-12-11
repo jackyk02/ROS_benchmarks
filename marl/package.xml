@@ -9,10 +9,15 @@
 
   <depend>rclpy</depend>
   <depend>std_msgs</depend>
+  <exec_depend>pip-custom</exec_depend>
+  <exec_depend>setuptools-custom</exec_depend>
+  <exec_depend>wheel-custom</exec_depend>
+  <exec_depend>maGym</exec_depend>
   <exec_depend>python3-numpy</exec_depend>
   <exec_depend>python-pytorch-pip</exec_depend>
   <exec_depend>gym-pip</exec_depend>
   <exec_depend>message_filters</exec_depend>
+
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
