@@ -1,0 +1,5 @@
+[console_scripts]
+env = marl.env:main
+policy1 = marl.policy1:main
+policy2 = marl.policy2:main
+

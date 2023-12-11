@@ -1,0 +1,110 @@
+[4.805s] DEBUG:colcon:Command line arguments: ['/home/jackyk/.local/bin/colcon', 'build']
+[4.806s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f654e30d9f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f654e7adc90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f654e7adc90>>)
+[4.886s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.888s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.890s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.895s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.895s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.896s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/mnt/c/Users/jacky/Desktop/ros/example'
+[4.899s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.899s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.900s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.901s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.901s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.902s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.915s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.915s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.917s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.917s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.919s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.922s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.922s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.924s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.928s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.928s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.929s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.932s] Level 1:colcon.colcon_core.package_identification:_identify(marl) by extensions ['ignore', 'ignore_ament_install']
+[4.932s] Level 1:colcon.colcon_core.package_identification:_identify(marl) by extension 'ignore'
+[4.933s] Level 1:colcon.colcon_core.package_identification:_identify(marl) by extension 'ignore_ament_install'
+[4.934s] Level 1:colcon.colcon_core.package_identification:_identify(marl) by extensions ['colcon_pkg']
+[4.935s] Level 1:colcon.colcon_core.package_identification:_identify(marl) by extension 'colcon_pkg'
+[4.935s] Level 1:colcon.colcon_core.package_identification:_identify(marl) by extensions ['colcon_meta']
+[4.936s] Level 1:colcon.colcon_core.package_identification:_identify(marl) by extension 'colcon_meta'
+[4.936s] Level 1:colcon.colcon_core.package_identification:_identify(marl) by extensions ['ros']
+[4.936s] Level 1:colcon.colcon_core.package_identification:_identify(marl) by extension 'ros'
+[4.947s] DEBUG:colcon.colcon_core.package_identification:Package 'marl' with type 'ros.ament_python' and name 'marl'
+[4.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.948s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.043s] Level 5:colcon.colcon_core.verb:set package 'marl' build argument 'cmake_args' from command line to 'None'
+[5.043s] Level 5:colcon.colcon_core.verb:set package 'marl' build argument 'cmake_target' from command line to 'None'
+[5.043s] Level 5:colcon.colcon_core.verb:set package 'marl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.043s] Level 5:colcon.colcon_core.verb:set package 'marl' build argument 'cmake_clean_cache' from command line to 'False'
+[5.043s] Level 5:colcon.colcon_core.verb:set package 'marl' build argument 'cmake_clean_first' from command line to 'False'
+[5.044s] Level 5:colcon.colcon_core.verb:set package 'marl' build argument 'cmake_force_configure' from command line to 'False'
+[5.044s] Level 5:colcon.colcon_core.verb:set package 'marl' build argument 'ament_cmake_args' from command line to 'None'
+[5.044s] Level 5:colcon.colcon_core.verb:set package 'marl' build argument 'catkin_cmake_args' from command line to 'None'
+[5.044s] Level 5:colcon.colcon_core.verb:set package 'marl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.044s] DEBUG:colcon.colcon_core.verb:Building package 'marl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/c/Users/jacky/Desktop/ros/example/build/marl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/c/Users/jacky/Desktop/ros/example/install/marl', 'merge_install': False, 'path': '/mnt/c/Users/jacky/Desktop/ros/example/marl', 'symlink_install': False, 'test_result_base': None}
+[5.058s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.071s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.072s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/mnt/c/Users/jacky/Desktop/ros/example/marl' with build type 'ament_python'
+[5.073s] Level 1:colcon.colcon_core.shell:create_environment_hook('marl', 'ament_prefix_path')
+[5.106s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/jacky/Desktop/ros/example/install/marl/share/marl/hook/ament_prefix_path.ps1'
+[5.118s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/jacky/Desktop/ros/example/install/marl/share/marl/hook/ament_prefix_path.dsv'
+[5.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/jacky/Desktop/ros/example/install/marl/share/marl/hook/ament_prefix_path.sh'
+[5.163s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.163s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.956s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/mnt/c/Users/jacky/Desktop/ros/example/marl'
+[5.969s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.969s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Users/jacky/Desktop/ros/example/marl': PS1=(venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/mnt/c/Users/jacky/Desktop/ros/example/build/marl/prefix_override:/mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/marl build --build-base /mnt/c/Users/jacky/Desktop/ros/example/build/marl/build install --record /mnt/c/Users/jacky/Desktop/ros/example/build/marl/install.log --single-version-externally-managed
+[10.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Users/jacky/Desktop/ros/example/marl' returned '0': PS1=(venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/mnt/c/Users/jacky/Desktop/ros/example/build/marl/prefix_override:/mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/marl build --build-base /mnt/c/Users/jacky/Desktop/ros/example/build/marl/build install --record /mnt/c/Users/jacky/Desktop/ros/example/build/marl/install.log --single-version-externally-managed
+[10.317s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/jacky/Desktop/ros/example/install/marl' for CMake module files
+[10.500s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/jacky/Desktop/ros/example/install/marl' for CMake config files
+[10.660s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib'
+[10.668s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/jacky/Desktop/ros/example/install/marl/bin'
+[10.670s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/pkgconfig/marl.pc'
+[10.672s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages'
+[10.674s] Level 1:colcon.colcon_core.shell:create_environment_hook('marl', 'pythonpath')
+[10.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/jacky/Desktop/ros/example/install/marl/share/marl/hook/pythonpath.ps1'
+[10.703s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/jacky/Desktop/ros/example/install/marl/share/marl/hook/pythonpath.dsv'
+[10.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/jacky/Desktop/ros/example/install/marl/share/marl/hook/pythonpath.sh'
+[10.732s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/jacky/Desktop/ros/example/install/marl/bin'
+[10.733s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(marl)
+[10.744s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/jacky/Desktop/ros/example/install/marl/share/marl/package.ps1'
+[10.757s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/Users/jacky/Desktop/ros/example/install/marl/share/marl/package.dsv'
+[10.768s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/jacky/Desktop/ros/example/install/marl/share/marl/package.sh'
+[10.780s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/jacky/Desktop/ros/example/install/marl/share/marl/package.bash'
+[10.793s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/jacky/Desktop/ros/example/install/marl/share/marl/package.zsh'
+[10.820s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/Users/jacky/Desktop/ros/example/install/marl/share/colcon-core/packages/marl)
+[10.831s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.831s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.831s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.832s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.996s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[10.997s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.997s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.997s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.997s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[10.998s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.009s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/jacky/Desktop/ros/example/install/local_setup.ps1'
+[11.017s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/c/Users/jacky/Desktop/ros/example/install/_local_setup_util_ps1.py'
+[11.025s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/jacky/Desktop/ros/example/install/setup.ps1'
+[11.067s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/jacky/Desktop/ros/example/install/local_setup.sh'
+[11.077s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/c/Users/jacky/Desktop/ros/example/install/_local_setup_util_sh.py'
+[11.086s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/jacky/Desktop/ros/example/install/setup.sh'
+[11.132s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/jacky/Desktop/ros/example/install/local_setup.bash'
+[11.143s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/jacky/Desktop/ros/example/install/setup.bash'
+[11.261s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/jacky/Desktop/ros/example/install/local_setup.zsh'
+[11.274s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/jacky/Desktop/ros/example/install/setup.zsh'
