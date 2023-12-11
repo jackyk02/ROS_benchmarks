@@ -1,0 +1,241 @@
+[0.000000] (-) TimerEvent: {}
+[0.021593] (inference) JobQueued: {'identifier': 'inference', 'dependencies': OrderedDict()}
+[0.022431] (inference) JobStarted: {'identifier': 'inference'}
+[0.082603] (-) TimerEvent: {}
+[0.189987] (-) TimerEvent: {}
+[0.300053] (-) TimerEvent: {}
+[0.402498] (-) TimerEvent: {}
+[0.504392] (-) TimerEvent: {}
+[0.605104] (-) TimerEvent: {}
+[0.707139] (-) TimerEvent: {}
+[0.811866] (-) TimerEvent: {}
+[0.913642] (-) TimerEvent: {}
+[1.025543] (-) TimerEvent: {}
+[1.137104] (-) TimerEvent: {}
+[1.246151] (-) TimerEvent: {}
+[1.353221] (-) TimerEvent: {}
+[1.461515] (-) TimerEvent: {}
+[1.563464] (-) TimerEvent: {}
+[1.669990] (-) TimerEvent: {}
+[1.771304] (-) TimerEvent: {}
+[1.877503] (-) TimerEvent: {}
+[1.987169] (-) TimerEvent: {}
+[2.097333] (-) TimerEvent: {}
+[2.197969] (-) TimerEvent: {}
+[2.302870] (-) TimerEvent: {}
+[2.405532] (-) TimerEvent: {}
+[2.507131] (-) TimerEvent: {}
+[2.616811] (-) TimerEvent: {}
+[2.717668] (-) TimerEvent: {}
+[2.820014] (-) TimerEvent: {}
+[2.924475] (-) TimerEvent: {}
+[3.028199] (-) TimerEvent: {}
+[3.130193] (-) TimerEvent: {}
+[3.236228] (-) TimerEvent: {}
+[3.346307] (-) TimerEvent: {}
+[3.447389] (-) TimerEvent: {}
+[3.548525] (-) TimerEvent: {}
+[3.649378] (-) TimerEvent: {}
+[3.750757] (-) TimerEvent: {}
+[3.851990] (-) TimerEvent: {}
+[3.954001] (-) TimerEvent: {}
+[4.055949] (-) TimerEvent: {}
+[4.156854] (-) TimerEvent: {}
+[4.270479] (-) TimerEvent: {}
+[4.378780] (-) TimerEvent: {}
+[4.487109] (-) TimerEvent: {}
+[4.599545] (-) TimerEvent: {}
+[4.703600] (-) TimerEvent: {}
+[4.804782] (-) TimerEvent: {}
+[4.906345] (-) TimerEvent: {}
+[5.007757] (-) TimerEvent: {}
+[5.109639] (-) TimerEvent: {}
+[5.211210] (-) TimerEvent: {}
+[5.312221] (-) TimerEvent: {}
+[5.413650] (-) TimerEvent: {}
+[5.514806] (-) TimerEvent: {}
+[5.621230] (-) TimerEvent: {}
+[5.731016] (-) TimerEvent: {}
+[5.831847] (-) TimerEvent: {}
+[5.933706] (-) TimerEvent: {}
+[6.040621] (-) TimerEvent: {}
+[6.141863] (-) TimerEvent: {}
+[6.243720] (-) TimerEvent: {}
+[6.344711] (-) TimerEvent: {}
+[6.457780] (-) TimerEvent: {}
+[6.558513] (-) TimerEvent: {}
+[6.662360] (-) TimerEvent: {}
+[6.772565] (-) TimerEvent: {}
+[6.879153] (-) TimerEvent: {}
+[6.980331] (-) TimerEvent: {}
+[7.081482] (-) TimerEvent: {}
+[7.182403] (-) TimerEvent: {}
+[7.283568] (-) TimerEvent: {}
+[7.389769] (-) TimerEvent: {}
+[7.491213] (-) TimerEvent: {}
+[7.591818] (-) TimerEvent: {}
+[7.692561] (-) TimerEvent: {}
+[7.795570] (-) TimerEvent: {}
+[7.903837] (-) TimerEvent: {}
+[8.005249] (-) TimerEvent: {}
+[8.109666] (-) TimerEvent: {}
+[8.211690] (-) TimerEvent: {}
+[8.312680] (-) TimerEvent: {}
+[8.428061] (-) TimerEvent: {}
+[8.532663] (-) TimerEvent: {}
+[8.636656] (-) TimerEvent: {}
+[8.737652] (-) TimerEvent: {}
+[8.840070] (-) TimerEvent: {}
+[8.946207] (-) TimerEvent: {}
+[9.054359] (-) TimerEvent: {}
+[9.168714] (-) TimerEvent: {}
+[9.271018] (-) TimerEvent: {}
+[9.375815] (-) TimerEvent: {}
+[9.477176] (-) TimerEvent: {}
+[9.580937] (-) TimerEvent: {}
+[9.687702] (-) TimerEvent: {}
+[9.789179] (-) TimerEvent: {}
+[9.895828] (-) TimerEvent: {}
+[9.997137] (-) TimerEvent: {}
+[10.100913] (-) TimerEvent: {}
+[10.204472] (-) TimerEvent: {}
+[10.314556] (-) TimerEvent: {}
+[10.421324] (-) TimerEvent: {}
+[10.524009] (-) TimerEvent: {}
+[10.629600] (-) TimerEvent: {}
+[10.731243] (-) TimerEvent: {}
+[10.838690] (-) TimerEvent: {}
+[10.946130] (-) TimerEvent: {}
+[11.055256] (-) TimerEvent: {}
+[11.156309] (-) TimerEvent: {}
+[11.263185] (-) TimerEvent: {}
+[11.364149] (-) TimerEvent: {}
+[11.468490] (-) TimerEvent: {}
+[11.571343] (-) TimerEvent: {}
+[11.679512] (-) TimerEvent: {}
+[11.789479] (-) TimerEvent: {}
+[11.892464] (-) TimerEvent: {}
+[11.994768] (-) TimerEvent: {}
+[12.096793] (-) TimerEvent: {}
+[12.200715] (-) TimerEvent: {}
+[12.305336] (-) TimerEvent: {}
+[12.406336] (-) TimerEvent: {}
+[12.507222] (-) TimerEvent: {}
+[12.610776] (-) TimerEvent: {}
+[12.713550] (-) TimerEvent: {}
+[12.814534] (-) TimerEvent: {}
+[12.915445] (-) TimerEvent: {}
+[13.020271] (-) TimerEvent: {}
+[13.122166] (-) TimerEvent: {}
+[13.224202] (-) TimerEvent: {}
+[13.325337] (-) TimerEvent: {}
+[13.432500] (-) TimerEvent: {}
+[13.543021] (-) TimerEvent: {}
+[13.645148] (-) TimerEvent: {}
+[13.746136] (-) TimerEvent: {}
+[13.847204] (-) TimerEvent: {}
+[13.949438] (-) TimerEvent: {}
+[14.055093] (-) TimerEvent: {}
+[14.130032] (inference) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/inference', 'build', '--build-base', '/mnt/c/Users/jacky/Desktop/ros/example/build/inference/build', 'install', '--record', '/mnt/c/Users/jacky/Desktop/ros/example/build/inference/install.log', '--single-version-externally-managed'], 'cwd': '/mnt/c/Users/jacky/Desktop/ros/example/inference', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jackyk', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}', 'HOME': '/home/jackyk', 'OLDPWD': '/mnt/c/Users/jacky/Desktop/ros', 'ROS_PYTHON_VERSION': '3', 'PS1': '(venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'COLCON_PREFIX_PATH': '/mnt/c/Users/jacky/Desktop/ros/example/install:/mnt/c/Users/jacky/Desktop/ros/example/talking/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jackyk', 'NAME': 'Jacky', 'WSL_INTEROP': '/run/WSL/1351_interop', '_': '/home/jackyk/.local/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/jackyk/.local/bin:/home/jackyk/colcon_venv/venv/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0/libnvvp:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/jacky/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/jacky/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/jacky/AppData/Local/Microsoft/WindowsApps:/mnt/d/Users/jacky/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2022.3.2/bin:/mnt/c/Users/jacky/AppData/Roaming/npm:/mnt/c/Users/jacky/.dotnet/tools:/mnt/c/Users/jacky/Desktop/LF/lf-cli-0.4.0/bin:/mnt/c/Users/jacky/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/jacky/AppData/Local/JetBrains/IntelliJ IDEA Community Edition 2023.1/bin:/snap/bin', 'WT_SESSION': '4d7220be-a955-4a24-9c3a-66bc03c2e35f', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/mnt/c/Users/jacky/Desktop/ros/example/install/inference:/mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/jackyk/colcon_venv/venv', 'PWD': '/mnt/c/Users/jacky/Desktop/ros/example/build/inference', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/jacky/Desktop/ros/example/build/inference/prefix_override:/mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages:/mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages:/mnt/c/Users/jacky/Desktop/ros/example/talking/install/talking/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[14.179021] (-) TimerEvent: {}
+[14.283774] (-) TimerEvent: {}
+[14.388643] (-) TimerEvent: {}
+[14.501662] (-) TimerEvent: {}
+[14.605054] (-) TimerEvent: {}
+[14.708387] (-) TimerEvent: {}
+[14.813316] (-) TimerEvent: {}
+[14.921439] (-) TimerEvent: {}
+[15.022896] (-) TimerEvent: {}
+[15.127469] (-) TimerEvent: {}
+[15.238117] (-) TimerEvent: {}
+[15.347468] (-) TimerEvent: {}
+[15.448622] (-) TimerEvent: {}
+[15.551527] (-) TimerEvent: {}
+[15.655263] (-) TimerEvent: {}
+[15.757176] (-) TimerEvent: {}
+[15.864052] (-) TimerEvent: {}
+[15.972322] (-) TimerEvent: {}
+[16.074150] (-) TimerEvent: {}
+[16.181279] (-) TimerEvent: {}
+[16.289920] (-) TimerEvent: {}
+[16.402948] (-) TimerEvent: {}
+[16.505454] (-) TimerEvent: {}
+[16.606492] (-) TimerEvent: {}
+[16.708995] (-) TimerEvent: {}
+[16.811464] (-) TimerEvent: {}
+[16.921637] (-) TimerEvent: {}
+[17.022498] (-) TimerEvent: {}
+[17.123365] (-) TimerEvent: {}
+[17.236129] (-) TimerEvent: {}
+[17.338765] (-) TimerEvent: {}
+[17.440606] (-) TimerEvent: {}
+[17.544743] (-) TimerEvent: {}
+[17.647044] (-) TimerEvent: {}
+[17.757607] (-) TimerEvent: {}
+[17.866255] (-) TimerEvent: {}
+[17.967234] (-) TimerEvent: {}
+[18.068319] (-) TimerEvent: {}
+[18.169207] (-) TimerEvent: {}
+[18.270009] (-) TimerEvent: {}
+[18.372523] (-) TimerEvent: {}
+[18.473334] (-) TimerEvent: {}
+[18.574029] (-) TimerEvent: {}
+[18.675211] (-) TimerEvent: {}
+[18.777674] (-) TimerEvent: {}
+[18.878382] (-) TimerEvent: {}
+[18.980779] (-) TimerEvent: {}
+[18.998882] (inference) StdoutLine: {'line': b'running egg_info\n'}
+[19.002843] (inference) StdoutLine: {'line': b'writing ../build/inference/inference.egg-info/PKG-INFO\n'}
+[19.024615] (inference) StdoutLine: {'line': b'writing dependency_links to ../build/inference/inference.egg-info/dependency_links.txt\n'}
+[19.068495] (inference) StdoutLine: {'line': b'writing entry points to ../build/inference/inference.egg-info/entry_points.txt\n'}
+[19.104822] (-) TimerEvent: {}
+[19.152810] (inference) StdoutLine: {'line': b'writing requirements to ../build/inference/inference.egg-info/requires.txt\n'}
+[19.158730] (inference) StdoutLine: {'line': b'writing top-level names to ../build/inference/inference.egg-info/top_level.txt\n'}
+[19.204959] (-) TimerEvent: {}
+[19.305515] (-) TimerEvent: {}
+[19.341702] (inference) StdoutLine: {'line': b"reading manifest file '../build/inference/inference.egg-info/SOURCES.txt'\n"}
+[19.405806] (-) TimerEvent: {}
+[19.515947] (-) TimerEvent: {}
+[19.556078] (inference) StdoutLine: {'line': b"writing manifest file '../build/inference/inference.egg-info/SOURCES.txt'\n"}
+[19.562157] (inference) StdoutLine: {'line': b'running build\n'}
+[19.564743] (inference) StdoutLine: {'line': b'running build_py\n'}
+[19.610052] (inference) StdoutLine: {'line': b'copying inference/listener.py -> /mnt/c/Users/jacky/Desktop/ros/example/build/inference/build/lib/inference\n'}
+[19.618972] (-) TimerEvent: {}
+[19.647615] (inference) StdoutLine: {'line': b'copying inference/talker.py -> /mnt/c/Users/jacky/Desktop/ros/example/build/inference/build/lib/inference\n'}
+[19.711192] (inference) StdoutLine: {'line': b'running install\n'}
+[19.713938] (inference) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[19.722661] (-) TimerEvent: {}
+[19.723114] (inference) StderrLine: {'line': b'  warnings.warn(\n'}
+[19.724486] (inference) StdoutLine: {'line': b'running install_lib\n'}
+[19.760149] (inference) StdoutLine: {'line': b'copying /mnt/c/Users/jacky/Desktop/ros/example/build/inference/build/lib/inference/listener.py -> /mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages/inference\n'}
+[19.811918] (inference) StdoutLine: {'line': b'copying /mnt/c/Users/jacky/Desktop/ros/example/build/inference/build/lib/inference/talker.py -> /mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages/inference\n'}
+[19.823425] (-) TimerEvent: {}
+[19.876598] (inference) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages/inference/listener.py to listener.cpython-310.pyc\n'}
+[19.923511] (-) TimerEvent: {}
+[19.947027] (inference) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages/inference/talker.py to talker.cpython-310.pyc\n'}
+[20.023639] (-) TimerEvent: {}
+[20.038485] (inference) StdoutLine: {'line': b'running install_data\n'}
+[20.096300] (inference) StdoutLine: {'line': b'copying inference/listener.py -> /mnt/c/Users/jacky/Desktop/ros/example/install/inference/share/inference\n'}
+[20.123822] (-) TimerEvent: {}
+[20.133220] (inference) StdoutLine: {'line': b'copying inference/talker.py -> /mnt/c/Users/jacky/Desktop/ros/example/install/inference/share/inference\n'}
+[20.196594] (inference) StdoutLine: {'line': b'running install_egg_info\n'}
+[20.211069] (inference) StdoutLine: {'line': b"removing '/mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages/inference-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[20.223910] (-) TimerEvent: {}
+[20.324753] (-) TimerEvent: {}
+[20.410170] (inference) StdoutLine: {'line': b'Copying ../build/inference/inference.egg-info to /mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages/inference-0.0.0-py3.10.egg-info\n'}
+[20.424962] (-) TimerEvent: {}
+[20.526641] (-) TimerEvent: {}
+[20.627427] (-) TimerEvent: {}
+[20.728152] (-) TimerEvent: {}
+[20.841428] (-) TimerEvent: {}
+[20.876069] (inference) StdoutLine: {'line': b'running install_scripts\n'}
+[20.940328] (inference) StdoutLine: {'line': b'Installing listener script to /mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/inference\n'}
+[20.941491] (-) TimerEvent: {}
+[20.949973] (inference) StdoutLine: {'line': b'Installing talker script to /mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/inference\n'}
+[20.960555] (inference) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Users/jacky/Desktop/ros/example/build/inference/install.log'\n"}
+[20.979724] (inference) CommandEnded: {'returncode': 0}
+[21.041595] (-) TimerEvent: {}
+[21.142022] (-) TimerEvent: {}
+[21.242413] (-) TimerEvent: {}
+[21.307459] (inference) JobEnded: {'identifier': 'inference', 'rc': 0}
+[21.319453] (-) EventReactorShutdown: {}

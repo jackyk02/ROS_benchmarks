@@ -1,7 +1,6 @@
 import rclpy
 from rclpy.node import Node
-from rospy.numpy_msg import numpy_msg
-from rospy_tutorials.msg import Floats
+from std_msgs.msg import Float32MultiArray
 import numpy as np
 
 
@@ -10,9 +9,9 @@ class MinimalSubscriberPublisher(Node):
     def __init__(self):
         super().__init__('minimal_subscriber_publisher')
         self.publisher_ = self.create_publisher(
-            numpy_msg(Floats), 'back_topic', 10)
+            Float32MultiArray, 'back_topic', 10)
         self.subscription = self.create_subscription(
-            numpy_msg(Floats),
+            Float32MultiArray,
             'topic',
             self.listener_callback,
             10)
@@ -20,15 +19,15 @@ class MinimalSubscriberPublisher(Node):
 
     def listener_callback(self, msg):
         received_array = np.array(msg.data)
-        self.get_logger().info('I heard: "%s", responding with "%s"' %
-                               (received_array, received_array))
+        self.get_logger().info(
+            f'I heard: {received_array}, responding with {received_array}')
         self.send_message(received_array)
 
-    def send_message(self, value):
-        msg = Floats()
-        msg.data = value
+    def send_message(self, array):
+        msg = Float32MultiArray()
+        msg.data = array.tolist()
         self.publisher_.publish(msg)
-        self.get_logger().info('Publishing: "%s"' % msg.data)
+        self.get_logger().info(f'Publishing: {msg.data}')
 
 
 def main(args=None):
