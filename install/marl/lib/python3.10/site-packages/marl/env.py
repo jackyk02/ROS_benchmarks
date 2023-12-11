@@ -23,6 +23,14 @@ class Env(Node):
         self.publisher = self.create_publisher(
             Float32MultiArray, 'env_topic', 10)
 
+        # Simulation
+        self.env = gym.make("ma_gym:TrafficJunction4-v1")
+        self.round_num = 0
+        self.actions = [()] * 4
+        self.total_reward = 0
+        self.state = self.env.reset()
+        self.done_n = [False] * 4
+
         self.send_message()
 
     def callback(self, p1, p2):
@@ -32,14 +40,10 @@ class Env(Node):
 
         self.send_message()
 
-        # Publishing a message
-        msg = Float32MultiArray()
-        msg.data = [1.0] * 10  # Creating a zero-filled list
-        self.publisher.publish(msg)
-
     def send_message(self):
         msg = Float32MultiArray()
-        msg.data = [1.0] * 10  # Creating a zero-filled list
+        flatten_list = [j for sub in self.state for j in sub]
+        msg.data = flatten_list
         self.publisher.publish(msg)
 
 

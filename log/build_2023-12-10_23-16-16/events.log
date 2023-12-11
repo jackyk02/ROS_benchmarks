@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.000413] (marl) JobQueued: {'identifier': 'marl', 'dependencies': OrderedDict()}
+[0.000766] (marl) JobStarted: {'identifier': 'marl'}
+[0.097606] (-) TimerEvent: {}
+[0.198080] (-) TimerEvent: {}
+[0.298853] (-) TimerEvent: {}
+[0.399748] (-) TimerEvent: {}
+[0.502099] (-) TimerEvent: {}
+[0.602917] (-) TimerEvent: {}
+[0.703651] (-) TimerEvent: {}
+[0.805252] (-) TimerEvent: {}
+[0.905903] (-) TimerEvent: {}
+[1.006359] (-) TimerEvent: {}
+[1.107636] (-) TimerEvent: {}
+[1.208227] (-) TimerEvent: {}
+[1.308944] (-) TimerEvent: {}
+[1.409342] (-) TimerEvent: {}
+[1.509917] (-) TimerEvent: {}
+[1.610412] (-) TimerEvent: {}
+[1.710818] (-) TimerEvent: {}
+[1.811450] (-) TimerEvent: {}
+[1.911955] (-) TimerEvent: {}
+[1.968571] (marl) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/marl', 'build', '--build-base', '/mnt/c/Users/jacky/Desktop/ros/example/build/marl/build', 'install', '--record', '/mnt/c/Users/jacky/Desktop/ros/example/build/marl/install.log', '--single-version-externally-managed'], 'cwd': '/mnt/c/Users/jacky/Desktop/ros/example/marl', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jackyk', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}', 'HOME': '/home/jackyk', 'OLDPWD': '/mnt/c/Users/jacky/Desktop/ros', 'ROS_PYTHON_VERSION': '3', 'PS1': '(venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'COLCON_PREFIX_PATH': '/mnt/c/Users/jacky/Desktop/ros/example/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jackyk', 'NAME': 'Jacky', 'WSL_INTEROP': '/run/WSL/14_interop', '_': '/home/jackyk/.local/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/jackyk/.local/bin:/home/jackyk/colcon_venv/venv/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.0/libnvvp:/mnt/c/Program Files/Microsoft MPI/Bin/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/jacky/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/jacky/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/jacky/AppData/Local/Microsoft/WindowsApps:/mnt/d/Users/jacky/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2022.3.2/bin:/mnt/c/Users/jacky/AppData/Roaming/npm:/mnt/c/Users/jacky/.dotnet/tools:/mnt/c/Users/jacky/Desktop/LF/lf-cli-0.4.0/bin:/mnt/c/Users/jacky/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/jacky/AppData/Local/JetBrains/IntelliJ IDEA Community Edition 2023.1/bin:/snap/bin', 'WT_SESSION': 'b80124b2-1fd0-4d77-9733-038f2d7cb487', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/mnt/c/Users/jacky/Desktop/ros/example/install/inference:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VIRTUAL_ENV': '/home/jackyk/colcon_venv/venv', 'PWD': '/mnt/c/Users/jacky/Desktop/ros/example/build/marl', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/jacky/Desktop/ros/example/build/marl/prefix_override:/mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages:/mnt/c/Users/jacky/Desktop/ros/example/install/inference/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[2.012038] (-) TimerEvent: {}
+[2.112601] (-) TimerEvent: {}
+[2.213864] (-) TimerEvent: {}
+[2.314403] (-) TimerEvent: {}
+[2.414829] (-) TimerEvent: {}
+[2.518641] (-) TimerEvent: {}
+[2.619077] (-) TimerEvent: {}
+[2.719565] (-) TimerEvent: {}
+[2.820367] (-) TimerEvent: {}
+[2.860455] (marl) StdoutLine: {'line': b'running egg_info\n'}
+[2.879389] (marl) StdoutLine: {'line': b'writing ../build/marl/marl.egg-info/PKG-INFO\n'}
+[2.886463] (marl) StdoutLine: {'line': b'writing dependency_links to ../build/marl/marl.egg-info/dependency_links.txt\n'}
+[2.894253] (marl) StdoutLine: {'line': b'writing entry points to ../build/marl/marl.egg-info/entry_points.txt\n'}
+[2.898090] (marl) StdoutLine: {'line': b'writing requirements to ../build/marl/marl.egg-info/requires.txt\n'}
+[2.902431] (marl) StdoutLine: {'line': b'writing top-level names to ../build/marl/marl.egg-info/top_level.txt\n'}
+[2.920450] (-) TimerEvent: {}
+[2.967952] (marl) StdoutLine: {'line': b"reading manifest file '../build/marl/marl.egg-info/SOURCES.txt'\n"}
+[3.020549] (-) TimerEvent: {}
+[3.035414] (marl) StdoutLine: {'line': b"writing manifest file '../build/marl/marl.egg-info/SOURCES.txt'\n"}
+[3.037878] (marl) StdoutLine: {'line': b'running build\n'}
+[3.038646] (marl) StdoutLine: {'line': b'running build_py\n'}
+[3.064455] (marl) StdoutLine: {'line': b'copying marl/policy1.py -> /mnt/c/Users/jacky/Desktop/ros/example/build/marl/build/lib/marl\n'}
+[3.117029] (marl) StdoutLine: {'line': b'running install\n'}
+[3.117752] (marl) StderrLine: {'line': b'/usr/local/lib/python3.10/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.118409] (marl) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.120623] (-) TimerEvent: {}
+[3.122874] (marl) StdoutLine: {'line': b'running install_lib\n'}
+[3.191093] (marl) StdoutLine: {'line': b'copying /mnt/c/Users/jacky/Desktop/ros/example/build/marl/build/lib/marl/policy1.py -> /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages/marl\n'}
+[3.220715] (-) TimerEvent: {}
+[3.288620] (marl) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages/marl/policy1.py to policy1.cpython-310.pyc\n'}
+[3.320846] (-) TimerEvent: {}
+[3.419383] (marl) StdoutLine: {'line': b'running install_data\n'}
+[3.420923] (-) TimerEvent: {}
+[3.453745] (marl) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.479133] (marl) StdoutLine: {'line': b"removing '/mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages/marl-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.521026] (-) TimerEvent: {}
+[3.579443] (marl) StdoutLine: {'line': b'Copying ../build/marl/marl.egg-info to /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages/marl-0.0.0-py3.10.egg-info\n'}
+[3.621128] (-) TimerEvent: {}
+[3.721765] (-) TimerEvent: {}
+[3.822622] (-) TimerEvent: {}
+[3.923217] (-) TimerEvent: {}
+[4.025117] (-) TimerEvent: {}
+[4.045047] (marl) StdoutLine: {'line': b'running install_scripts\n'}
+[4.125229] (-) TimerEvent: {}
+[4.195733] (marl) StdoutLine: {'line': b'Installing env script to /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/marl\n'}
+[4.210754] (marl) StdoutLine: {'line': b'Installing policy1 script to /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/marl\n'}
+[4.221926] (marl) StdoutLine: {'line': b'Installing policy2 script to /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/marl\n'}
+[4.225311] (-) TimerEvent: {}
+[4.237179] (marl) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Users/jacky/Desktop/ros/example/build/marl/install.log'\n"}
+[4.267432] (marl) CommandEnded: {'returncode': 0}
+[4.325423] (-) TimerEvent: {}
+[4.425934] (-) TimerEvent: {}
+[4.526509] (-) TimerEvent: {}
+[4.626950] (-) TimerEvent: {}
+[4.696679] (marl) JobEnded: {'identifier': 'marl', 'rc': 0}
+[4.711389] (-) EventReactorShutdown: {}
