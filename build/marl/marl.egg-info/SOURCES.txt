@@ -12,6 +12,8 @@ marl/__init__.py
 marl/env.py
 marl/policy1.py
 marl/policy2.py
+marl/policy3.py
+marl/policy4.py
 resource/marl
 test/test_copyright.py
 test/test_flake8.py

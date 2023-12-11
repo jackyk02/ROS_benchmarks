@@ -54,7 +54,7 @@ class Policy1(Node):
         self.subscription  # prevent unused variable warning
 
         # other client code
-        self.agent_idx = 1
+        self.agent_idx = 0
         self.policy = load_policy(self.agent_idx)
 
     def listener_callback(self, msg):

@@ -1,0 +1,37 @@
+running egg_info
+writing ../build/marl/marl.egg-info/PKG-INFO
+writing dependency_links to ../build/marl/marl.egg-info/dependency_links.txt
+writing entry points to ../build/marl/marl.egg-info/entry_points.txt
+writing requirements to ../build/marl/marl.egg-info/requires.txt
+writing top-level names to ../build/marl/marl.egg-info/top_level.txt
+reading manifest file '../build/marl/marl.egg-info/SOURCES.txt'
+writing manifest file '../build/marl/marl.egg-info/SOURCES.txt'
+running build
+running build_py
+copying marl/env.py -> /mnt/c/Users/jacky/Desktop/ros/example/build/marl/build/lib/marl
+copying marl/policy2.py -> /mnt/c/Users/jacky/Desktop/ros/example/build/marl/build/lib/marl
+copying marl/policy3.py -> /mnt/c/Users/jacky/Desktop/ros/example/build/marl/build/lib/marl
+copying marl/policy4.py -> /mnt/c/Users/jacky/Desktop/ros/example/build/marl/build/lib/marl
+running install
+/usr/local/lib/python3.10/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+copying /mnt/c/Users/jacky/Desktop/ros/example/build/marl/build/lib/marl/env.py -> /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages/marl
+copying /mnt/c/Users/jacky/Desktop/ros/example/build/marl/build/lib/marl/policy2.py -> /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages/marl
+copying /mnt/c/Users/jacky/Desktop/ros/example/build/marl/build/lib/marl/policy3.py -> /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages/marl
+copying /mnt/c/Users/jacky/Desktop/ros/example/build/marl/build/lib/marl/policy4.py -> /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages/marl
+byte-compiling /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages/marl/env.py to env.cpython-310.pyc
+byte-compiling /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages/marl/policy2.py to policy2.cpython-310.pyc
+byte-compiling /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages/marl/policy3.py to policy3.cpython-310.pyc
+byte-compiling /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages/marl/policy4.py to policy4.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages/marl-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/marl/marl.egg-info to /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages/marl-0.0.0-py3.10.egg-info
+running install_scripts
+Installing env script to /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/marl
+Installing policy1 script to /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/marl
+Installing policy2 script to /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/marl
+Installing policy3 script to /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/marl
+Installing policy4 script to /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/marl
+writing list of installed files to '/mnt/c/Users/jacky/Desktop/ros/example/build/marl/install.log'

@@ -23,6 +23,8 @@ setup(
             'env = marl.env:main',
             'policy1 = marl.policy1:main',
             'policy2 = marl.policy2:main',
+            'policy3 = marl.policy3:main',
+            'policy4 = marl.policy4:main',
         ],
     },
 )

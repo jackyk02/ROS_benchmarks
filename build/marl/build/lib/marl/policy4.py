@@ -40,12 +40,12 @@ def load_policy(agent_idx):
     return policy
 
 
-class policy2(Node):
+class policy4(Node):
 
     def __init__(self):
-        super().__init__('policy2')
+        super().__init__('policy4')
         self.publisher_ = self.create_publisher(
-            Int32, 'policy_topic2', 10)
+            Int32, 'policy_topic4', 10)
         self.subscription = self.create_subscription(
             Float32MultiArray,
             'env_topic',
@@ -54,7 +54,7 @@ class policy2(Node):
         self.subscription  # prevent unused variable warning
 
         # other client code
-        self.agent_idx = 1
+        self.agent_idx = 3
         self.policy = load_policy(self.agent_idx)
 
     def listener_callback(self, msg):
@@ -75,7 +75,7 @@ class policy2(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    policy_node = policy2()
+    policy_node = policy4()
     rclpy.spin(policy_node)
     policy_node.destroy_node()
     rclpy.shutdown()

@@ -1,0 +1,39 @@
+[3.794s] Invoking command in '/mnt/c/Users/jacky/Desktop/ros/example/marl': PS1=(venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/mnt/c/Users/jacky/Desktop/ros/example/build/marl/prefix_override:/mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/marl build --build-base /mnt/c/Users/jacky/Desktop/ros/example/build/marl/build install --record /mnt/c/Users/jacky/Desktop/ros/example/build/marl/install.log --single-version-externally-managed
+[6.368s] running egg_info
+[6.468s] writing ../build/marl/marl.egg-info/PKG-INFO
+[6.486s] writing dependency_links to ../build/marl/marl.egg-info/dependency_links.txt
+[6.507s] writing entry points to ../build/marl/marl.egg-info/entry_points.txt
+[6.521s] writing requirements to ../build/marl/marl.egg-info/requires.txt
+[6.531s] writing top-level names to ../build/marl/marl.egg-info/top_level.txt
+[6.694s] reading manifest file '../build/marl/marl.egg-info/SOURCES.txt'
+[6.950s] writing manifest file '../build/marl/marl.egg-info/SOURCES.txt'
+[6.955s] running build
+[6.956s] running build_py
+[7.005s] copying marl/env.py -> /mnt/c/Users/jacky/Desktop/ros/example/build/marl/build/lib/marl
+[7.191s] copying marl/policy2.py -> /mnt/c/Users/jacky/Desktop/ros/example/build/marl/build/lib/marl
+[7.209s] copying marl/policy3.py -> /mnt/c/Users/jacky/Desktop/ros/example/build/marl/build/lib/marl
+[7.232s] copying marl/policy4.py -> /mnt/c/Users/jacky/Desktop/ros/example/build/marl/build/lib/marl
+[7.263s] running install
+[7.264s] /usr/local/lib/python3.10/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.265s]   warnings.warn(
+[7.270s] running install_lib
+[7.310s] copying /mnt/c/Users/jacky/Desktop/ros/example/build/marl/build/lib/marl/env.py -> /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages/marl
+[7.359s] copying /mnt/c/Users/jacky/Desktop/ros/example/build/marl/build/lib/marl/policy2.py -> /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages/marl
+[7.394s] copying /mnt/c/Users/jacky/Desktop/ros/example/build/marl/build/lib/marl/policy3.py -> /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages/marl
+[7.425s] copying /mnt/c/Users/jacky/Desktop/ros/example/build/marl/build/lib/marl/policy4.py -> /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages/marl
+[7.548s] byte-compiling /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages/marl/env.py to env.cpython-310.pyc
+[7.642s] byte-compiling /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages/marl/policy2.py to policy2.cpython-310.pyc
+[7.707s] byte-compiling /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages/marl/policy3.py to policy3.cpython-310.pyc
+[7.777s] byte-compiling /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages/marl/policy4.py to policy4.cpython-310.pyc
+[7.854s] running install_data
+[7.910s] running install_egg_info
+[7.938s] removing '/mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages/marl-0.0.0-py3.10.egg-info' (and everything under it)
+[8.005s] Copying ../build/marl/marl.egg-info to /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages/marl-0.0.0-py3.10.egg-info
+[8.509s] running install_scripts
+[8.719s] Installing env script to /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/marl
+[8.736s] Installing policy1 script to /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/marl
+[8.751s] Installing policy2 script to /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/marl
+[8.765s] Installing policy3 script to /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/marl
+[8.780s] Installing policy4 script to /mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/marl
+[8.804s] writing list of installed files to '/mnt/c/Users/jacky/Desktop/ros/example/build/marl/install.log'
+[8.833s] Invoked command in '/mnt/c/Users/jacky/Desktop/ros/example/marl' returned '0': PS1=(venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/mnt/c/Users/jacky/Desktop/ros/example/build/marl/prefix_override:/mnt/c/Users/jacky/Desktop/ros/example/install/marl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/marl build --build-base /mnt/c/Users/jacky/Desktop/ros/example/build/marl/build install --record /mnt/c/Users/jacky/Desktop/ros/example/build/marl/install.log --single-version-externally-managed

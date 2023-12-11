@@ -13,10 +13,12 @@ class Env(Node):
         # Subscribers
         self.policy1 = Subscriber(self, Int32, 'policy_topic1')
         self.policy2 = Subscriber(self, Int32, 'policy_topic2')
+        self.policy3 = Subscriber(self, Int32, 'policy_topic3')
+        self.policy4 = Subscriber(self, Int32, 'policy_topic4')
 
         # Synchronize the subscribers
         ats = ApproximateTimeSynchronizer(
-            [self.policy1, self.policy2], 10, 0.1, allow_headerless=True)
+            [self.policy1, self.policy2, self.policy3, self.policy4], 10, 0.1, allow_headerless=True)
         ats.registerCallback(self.callback)
 
         # Publisher
@@ -26,18 +28,19 @@ class Env(Node):
         # Simulation
         self.env = gym.make("ma_gym:TrafficJunction4-v1")
         self.round_num = 0
-        self.actions = [()] * 4
         self.total_reward = 0
         self.state = self.env.reset()
         self.done_n = [False] * 4
 
         self.send_message()
 
-    def callback(self, p1, p2):
+    def callback(self, p1, p2, p3, p4):
+        self.actions = [p1.data, p2.data, p3.data, p4.data]
         # Logging information
-        self.get_logger().info(str(p1.data))
-        self.get_logger().info(str(p2.data))
+        self.get_logger().info(str(self.actions))
 
+        self.state, rewards, done_n, _ = self.env.step(self.actions)
+        self.total_reward += sum(rewards)
         self.send_message()
 
     def send_message(self):
